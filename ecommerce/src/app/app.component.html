@@ -1,0 +1,63 @@
+<header id="header" class="header  fixed-top ">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+      <a href="" class="d-flex align-items-center justify-content-center navlogo">
+        <i class="bi bi-camera logo"></i>
+       <h1>PhotoFolio</h1>
+      </a>
+      
+      <nav>
+        <ul>
+          <li><a routerLink="/">HOME</a></li>
+          <li><a routerLink="/gallery">GALLERY</a></li>
+          <li><a routerLink="/about">ABOUT</a></li>
+          <li><a routerLink="/services">SERVICE</a></li>
+          <li><a routerLink="/contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="header-social-links d-flex aling-items-center justify-content-between">
+        <a href="#twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#instragram" ><i class="bi bi-instagram"></i></a>
+        <a href="#Linkedin"><i class="bi bi-linkedin"></i></a>
+       
+      </div>
+      <div class="menu">
+        <a href="#"><i class="bi bi-list " (click)="menuclick()"></i></a>
+       </div>
+
+    </div>
+    
+    <div class="sidenav" [class.sidenavClass]="menuIcon">
+      <ul>
+        <li><a routerLink="/">HOME</a></li>
+        <li><a routerLink="/gallery">GALLERY</a></li>
+        <li><a routerLink="/about">ABOUT</a></li>
+        <li><a routerLink="/services">SERVICE</a></li>
+        <li><a routerLink="/contact">CONTACT</a></li>
+      </ul>
+    </div>
+</header>
+ <!-- <app-home></app-home> -->
+ <!-- <app-about></app-about>
+ <app-services></app-services> -->
+ <!-- <app-testimonial></app-testimonial> -->
+ <router-outlet></router-outlet>
+ <footer class="footer" id="footer">
+  <div class="container-fluid text-center ">
+      <div class="row gy-5 justify-content-center">
+          <div class="copyright">
+              © Copyright
+              <span>
+                  <strong style="color: aliceblue;font-weight: bolder;">
+                      PhotoFolio
+                  </strong>
+                  All Rights Reserved
+              </span>
+          </div>
+          <div class="credit">
+              Design using &nbsp;<strong style="color:#45A29E; font-weight: 400;">Bootstrap</strong>
+          </div>
+      </div>
+  </div>
+</footer>
+

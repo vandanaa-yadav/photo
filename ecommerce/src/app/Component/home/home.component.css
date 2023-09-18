@@ -1,0 +1,31 @@
+.gallery-item{
+    position: relative;
+   
+}
+.gallery-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+   
+  }
+  
+  .gallery-item:hover img {
+    
+    transform: scale(1.1);
+  }
+  /* .gallery-item i{
+    text-align: center;
+    color: aqua;
+    font-size: 10px;
+  } */
+  .gallery-item .gallery-btn{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background: transparent;
+  color: aqua;
+  font-size: 20px;
+  display: none;
+  
+}

@@ -1,0 +1,60 @@
+.secvices .service-items{
+    padding: 50px 30px;
+    background: #161718;
+}
+ /* css effect for h4 */
+ 
+
+.service-items h4{
+    font-weight: 600;
+    margin: 15px 0 0 0;
+    transition: 0.3s;
+    font-size: 30px;
+}
+.service-items h4 a{
+    text-decoration: none;
+    color: #45A29E;
+    font-family: 'Playfair Display', serif;
+}
+.service-items p{
+    line-height: 24px;
+font-size: 14px;
+margin: 15px 0 0 0;
+color: white;
+}
+.section-header{
+    margin-top: 30px;
+}
+.section-header h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.section-header p{
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+   
+}
+.service-items i{
+ color: white;
+ font-size: 28px;
+ padding-left: 10px;
+}
+
+.clickMe{
+    margin-top: 30px;
+    color: white;
+     background: none;
+    border:2px solid #45A29E ;
+}

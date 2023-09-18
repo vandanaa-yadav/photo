@@ -1,0 +1,70 @@
+.secvices .service-items{
+    padding: 50px 30px;
+    background: #161718;
+}
+.service-items i{
+background:#45A29E;
+color: #fff;
+font-size: 24px;
+transition: 0.3s;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 56px;
+height: 56px;
+border-radius: 50%;
+}
+.service-items h4{
+    font-weight: 600;
+    margin: 15px 0 0 0;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.service-items h4 a{
+    text-decoration: none;
+    color: white;
+}
+.service-items p{
+    line-height: 24px;
+font-size: 14px;
+margin: 15px 0 0 0;
+color: white;
+}
+.section-header{
+    margin-top: 30px;
+}
+.section-header h2{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.section-header p{
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.pricing .pricing-item{
+    border-bottom: 1px dashed #474a4d;
+    width: 100%;
+    height: 100%;
+    padding: 0 0 15px 0;
+}
+.pricing .pricing-item h3{
+margin: 0;
+font-size: 18px;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.6);
+}.pricing .pricing-item h4{
+  font-size: 16px;
+  color: white;
+}

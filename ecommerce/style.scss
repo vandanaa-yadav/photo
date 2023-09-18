@@ -1,0 +1,40 @@
+// Define SCSS variables for reusable values
+$nav-background:gray;
+$link-color: #333;
+$link-padding: 10px 20px;
+
+// Mixin for setting link styles
+@mixin link-styles {
+  display: block;
+  padding: $link-padding;
+  text-decoration: none;
+  color: $link-color;
+
+//   &:hover {
+//     background-color: #f0f0f0;
+//     color: #000;
+//   }
+
+  
+}
+
+// Styles for the navigation bar
+nav {
+  background-color: $nav-background;
+
+  // Styles for the list and list items
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+
+      // Include the link styles mixin
+      a {
+        @include link-styles;
+      }
+    }
+  }
+}

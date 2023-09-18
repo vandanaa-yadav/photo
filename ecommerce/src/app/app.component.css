@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 30px 0px;
+  background-color: #000;
+  font-family: 'Playfair Display', serif;
+}
+header a{
+  text-decoration: none;
+}
+.logo{
+ font-size: 32px;
+ color:#45A29E;
+ margin-right: 8px;
+}
+header a h1{
+
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  font-weight: 400;
+}
+nav{
+  color: white;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav li {
+  padding: 10px 0px 10px 30px;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.5);;
+
+  font-size: 15px;
+
+}
+nav a:hover{
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.header-social-links{
+  margin-right: 15px;
+}.header-social-links a{
+  color:rgba(255, 255, 255, 0.5);
+  font-size:17px;
+  display: inline-block;
+  padding-left: 15px;
+}
+.header-social-links a:hover{
+  color: aliceblue;
+}
+.sidenav{
+  display: none;
+}
+.menu{
+  display: none;
+}
+
+/* responsive navigation */
+@media (max-width: 900px) {
+  nav{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+  .menu a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+    display: inline-block;
+  }
+  .sidenav{
+   
+    margin-top: 0;
+    display: none;
+    float: right;
+    color:rgba(255, 255, 255, 0.5); 
+    width: 400px;
+    transform: translateY(-400px);
+    /* display: flex; */
+    transition:0.4s ease-in-out;
+    
+   
+  }
+  .sidenav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sidenav ul li {
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .sidenav ul li a{
+    color: white;
+  }
+  .sidenavClass{
+ 
+    transform: translateY(0);
+    transition:0.4s ease-in-out;
+    display: block;
+  }
+
+
+  
+}
+@media (max-width: 767px){
+  .navlogo{
+    margin-right: auto;
+    padding: 10px;
+    justify-content: none;
+    align-items: none;
+  }
+ }
+
+/* fooyter css */
+
+.footer{
+  background-color: black;
+  }
+  .credit{
+      margin-top: 0;
+      padding: 10px;
+      color: white;
+  }
+  .copyright{
+      color: white; padding-top: 30px;}
+      /*  service section  card design */
+  
+      .secvices .service-items{
+        padding: 50px 30px;
+        background: #161718;
+    }
+    .service-items i{
+    background:#45A29E;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    }
+    .service-items h4{
+        font-weight: 600;
+        margin: 15px 0 0 0;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    .service-items h4 a{
+        text-decoration: none;
+        color: white;
+    }
+    .service-items p{
+        line-height: 24px;
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    color: white;
+    }
+    .section-header{
+        margin-top: 30px;
+    }
+    .section-header h2{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6)
+    }
+    
+    .section-header p{
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+    }
+
+
